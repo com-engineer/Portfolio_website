@@ -1,0 +1,223 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #2f179c;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+nav ul li a:hover {
+    color: #8d7ece;
+    font-size: 1.02rem;
+}
+
+main hr {
+    border: none;
+    height: 2px;
+    background-color: #2f179c;
+    margin: 0 50px;
+}
+
+.left {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    height: 90vh;
+    align-items: center;
+    /* margin: 23px 0; */
+}
+
+.leftSection {
+    /* background-color: lightgreen; */
+    font-size: 2rem;
+    /* margin: 70px 0; */
+}
+
+.leftSection .buttons {
+    padding: 50px 0;
+}
+
+.leftSection .btn {
+    padding: 12px;
+    background: white;
+    color: blue;
+    border: 2px solid blue;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.rightSection img {
+    width: 400px;
+    height: auto;
+
+}
+
+.blue {
+    color: #2f179c;
+    font-weight: 700;
+}
+
+.text-blue {
+    color: #433581;
+}
+
+#element {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #2f179c;
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.secondSection span {
+    display: block;
+    margin-top: 20px;
+}
+
+.secondSection h1 {
+    margin-top: 0px;
+}
+
+.secondSection .box {
+    background: #433581;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.secondSection .verticle {
+    width: 1px;
+    height: 93px;
+    background-color: #2f179c;
+    /* margin: 0 100px; */
+}
+
+.secondSection .verticle-desc:hover {
+    color: black;
+    font-size: 11px;
+}
+
+.image-top {
+    width: 25px;
+    position: relative;
+    top: -30px;
+    left: -9px;
+}
+
+.verticle-title {
+    position: relative;
+    top: 75px;
+    width: 150px;
+}
+
+.verticle-desc {
+    position: relative;
+    top: 100px;
+    color: grey;
+    width: 150px;
+    font-size: 10px;
+}
+
+.thirdSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.thirdSection .container {
+    display: flex;
+    justify-content: space-between;
+    /* width:50px; */
+    height: 60vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.thirdSection .container .right-box img {
+    border-radius: 50%;
+    height: 300px
+}
+
+.fourthSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.fourthSection .skillSet {
+    height: 400px;
+    overflow-y: scroll;
+    border: 1px solid #000;
+}
+
+.fourthSection .skillSet img {
+    width: 75px;
+    margin: 10px;
+    border-color: #2f179c;
+    border-radius: 20%;
+    border-width: 2px;
+}
+
+.secondSection h1 {
+    margin-top: 0px;
+}
+
+footer {
+    background-color: #2f179c;
+    /* height:233px; */
+    color: white
+}
+
+.footer {
+    display: flex;
+    padding: 23px 50px;
+    justify-content: space-evenly;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer>div {
+    width: 233px;
+}
+
+footer .footer-rights {
+    text-align: center;
+    color: grey;
+    padding: 12px 0;
+}

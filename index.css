@@ -6,6 +6,10 @@ body {
 
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -175,20 +179,52 @@ main hr {
     max-width: 80vw;
     margin: auto;
     height: 80vh;
+    justify-content: center;
 }
 
 .fourthSection .skillSet {
+    background-image: url(background.png);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
     height: 400px;
     overflow-y: scroll;
-    border: 1px solid #000;
+    border: 4px solid #2f179c;
+    border-radius: 20px;
+}
+
+.fourthSection .skillSet span{
+    color: white;
+    font-size: 2rem;
+    display: inline-block;
+  position: relative;
+  padding-bottom: 5px;
+  font-weight: 600;
+
+}
+
+.fourthSection .skillSet span::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 3px;
+  background: #ff6600;
+  transition: 0.3s ease;
+  transform: translateX(-50%);
+}
+
+.fourthSection .skillSet span:hover::after {
+  width: 100%;
 }
 
 .fourthSection .skillSet img {
-    width: 75px;
+    width: 200px;
+    height: auto;
     margin: 10px;
-    border-color: #2f179c;
-    border-radius: 20%;
-    border-width: 2px;
+    border: 2px solid #2f179c;
+    border-radius:10px;
 }
 
 .secondSection h1 {
